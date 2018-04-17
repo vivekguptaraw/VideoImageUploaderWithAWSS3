@@ -7,7 +7,7 @@
 //
 
 import Foundation
-let bucktRegion = "ap-south-1"
+let bucktRegion = "YourBucketRegion"
 let fileNameUploaded = "<File name that you uploaded>"
 class UploadModel{
     var tranferId: String = ""
