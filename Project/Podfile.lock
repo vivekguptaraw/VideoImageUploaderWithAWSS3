@@ -1,0 +1,49 @@
+PODS:
+  - AssetsPickerViewController (2.4.1):
+    - Device (~> 3.0.3)
+    - Dimmer (~> 2.0)
+    - FadeView (~> 2.0)
+    - PureLayout
+    - SwiftARGB (~> 2.0)
+    - TinyLog (~> 2.0)
+  - AWSAuthCore (2.6.13):
+    - AWSCore (= 2.6.13)
+  - AWSCore (2.6.13)
+  - AWSMobileClient (2.6.13):
+    - AWSAuthCore (= 2.6.13)
+  - AWSS3 (2.6.13):
+    - AWSCore (= 2.6.13)
+  - Device (3.0.3)
+  - Dimmer (2.0.3):
+    - FadeView (~> 2.0)
+    - PureLayout
+    - TinyLog (~> 2.0)
+    - UIViewKVO (~> 2.0)
+  - FadeView (2.0.0)
+  - PureLayout (3.0.2)
+  - SwiftARGB (2.0.0)
+  - TinyLog (2.0.7)
+  - UIViewKVO (2.0.0)
+
+DEPENDENCIES:
+  - AssetsPickerViewController (~> 2.0)
+  - AWSMobileClient
+  - AWSS3
+
+SPEC CHECKSUMS:
+  AssetsPickerViewController: 86c2e226ec60a3a40a28274e414da4469f4a3b9d
+  AWSAuthCore: 821990b7fc2febe5ed5eb42199ea55ee22ac911d
+  AWSCore: 5da797bc476188fdaf00dec134fa18d84708eca9
+  AWSMobileClient: bf1c341c91f82eda8f757cd96dc0cbb3d1f0b768
+  AWSS3: 7c178c82c2e648559b7075a663335055327dd4f5
+  Device: 9a5264ee4e0f392e7153d2c46b10c8df46b7aad2
+  Dimmer: 9908a0003f4882eca1b2e318e11f82d32280794e
+  FadeView: 80197da2fbee5382b178127e8c5f988a35eef018
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SwiftARGB: 8727cfcdcfe8709e707a2391f1d5802a7c40dcad
+  TinyLog: 073a9abfd44a944886d5d07aa49cbba5ef192335
+  UIViewKVO: 091f9e020d69e73c4bf5e5ef61cde7bff1c24bbf
+
+PODFILE CHECKSUM: 47eb05c338550825244654e1a0cead6d9b4200c9
+
+COCOAPODS: 1.1.1

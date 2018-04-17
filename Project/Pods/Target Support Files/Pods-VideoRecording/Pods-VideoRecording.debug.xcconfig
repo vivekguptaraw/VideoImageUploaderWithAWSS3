@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AWSAuthCore" "$PODS_CONFIGURATION_BUILD_DIR/AWSCore" "$PODS_CONFIGURATION_BUILD_DIR/AWSMobileClient" "$PODS_CONFIGURATION_BUILD_DIR/AWSS3" "$PODS_CONFIGURATION_BUILD_DIR/AssetsPickerViewController" "$PODS_CONFIGURATION_BUILD_DIR/Device" "$PODS_CONFIGURATION_BUILD_DIR/Dimmer" "$PODS_CONFIGURATION_BUILD_DIR/FadeView" "$PODS_CONFIGURATION_BUILD_DIR/PureLayout" "$PODS_CONFIGURATION_BUILD_DIR/SwiftARGB" "$PODS_CONFIGURATION_BUILD_DIR/TinyLog" "$PODS_CONFIGURATION_BUILD_DIR/UIViewKVO"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSAuthCore/AWSAuthCore.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSCore/AWSCore.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSMobileClient/AWSMobileClient.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AWSS3/AWSS3.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AssetsPickerViewController/AssetsPickerViewController.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Device/Device.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Dimmer/Dimmer.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/FadeView/FadeView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/PureLayout/PureLayout.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftARGB/SwiftARGB.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/TinyLog/TinyLog.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/UIViewKVO/UIViewKVO.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AWSAuthCore" -framework "AWSCore" -framework "AWSMobileClient" -framework "AWSS3" -framework "AssetsPickerViewController" -framework "Device" -framework "Dimmer" -framework "FadeView" -framework "PureLayout" -framework "SwiftARGB" -framework "TinyLog" -framework "UIViewKVO"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
